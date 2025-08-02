@@ -28,4 +28,7 @@ jobs:
           
         - name: list files
           run: ls
+
+        - name: Read files
+          run: dockerfile
         
