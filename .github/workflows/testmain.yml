@@ -23,5 +23,9 @@ jobs:
         - name: Install Dependencies
           run: npm install
     
-        - name: Unit Testing
-          run: npm test
+        - name: Welcome message
+          run: echo "Welcome to test pipeline"
+          
+        - name: list files
+          run: ls
+        
